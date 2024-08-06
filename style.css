@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html, body, main{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: #FFA17F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid rgb(234, 223, 223);
+}
+
+.container{
+
+    width: 500px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 20px 10px;
+    gap: 20px;
+}
+.container1{
+    border-bottom: 2px solid;
+}
+
+.container1 h2{
+    padding-top: 10px;
+    
+    background: rgb(131,58,180);
+    background: linear-gradient(101deg, rgba(131,58,180,1) 0%, rgba(0,34,62,1) 0%, rgba(198,117,88,1) 69%, rgba(252,176,69,1) 100%);
+    text-align: center;
+    width: 100%;
+    padding-bottom :15px ;
+}
+
+.container1 h4{
+    background:rgb(30, 30, 48);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    transition-duration: 0.2s
+}
+.quiz{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.next{
+   padding: 8px 25px;
+   background-color: rgba(43, 104, 43, 0.893);
+   border: none;
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: 600;
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   
+}
+
+.next:hover{
+    box-shadow: 2px 2px 5px rgb(62, 55, 55);
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+
+
+.startQuiz{
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    border: none;
+    border-radius: 9px;
+    font-size: 13px;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: rgb(36, 56, 83);
+}
+
+#unchecked:hover{
+    color: white;
+    background: black;
+    box-shadow: 2px 2px 5px rgb(62, 55, 55);
+}
+
+#checked:hover{
+    cursor:no-drop;
+}
+
